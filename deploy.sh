@@ -18,12 +18,12 @@ echo > .nojekyll
 git init
 # git checkout -B main
 git add -A
-git commit -m 'deploy'
+git commit -m 'deploying'
 
 # if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
+git push -f git@github.com:rmdn/rmdn.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:rmdn/giz-admin.git main:gh-pages
+# git push -f git@github.com:rmdn/giz-admin.git master:gh-pages
 
 cd -

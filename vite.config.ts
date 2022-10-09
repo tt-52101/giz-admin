@@ -29,7 +29,7 @@ export default defineConfig({
   // You also need to add this base like `history: createWebHistory('my-subdirectory')`
   // in ./src/router.ts
   // base: '/my-subdirectory/',
-  base: '/giz-admin/',
+  base: '/',
   // Directory to serve as plain static assets.
   publicDir: 'public',
   // Adjust console output verbosity.
@@ -238,8 +238,8 @@ export default defineConfig({
       base: '/',
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Vuero - A complete Vue 3 design system',
-        short_name: 'Vuero',
+        name: 'Hoplamob system',
+        short_name: 'Hoplamob',
         start_url: '/?utm_source=pwa',
         display: 'standalone',
         theme_color: '#ffffff',
