@@ -4,7 +4,7 @@
 set -e
 
 # build
-npm run build
+pnpm build
 
 # navigate into the build output directory
 cd dist
@@ -16,7 +16,7 @@ echo > .nojekyll
 # echo 'www.example.com' > CNAME
 
 git init
-git checkout -B main
+# git checkout -B main
 git add -A
 git commit -m 'deploy'
 
