@@ -17,7 +17,7 @@
         <VAvatar size="large" picture="/images/avatars/svg/vuero-1.svg" />
 
         <div class="meta">
-          <span>Erik Kovalsky</span>
+          <span>Admin GIZ</span>
           <span>Product Manager</span>
         </div>
       </div>
@@ -34,15 +34,7 @@
 
       <hr class="dropdown-divider" />
 
-      <a href="#" role="menuitem" class="dropdown-item is-media">
-        <div class="icon">
-          <i aria-hidden="true" class="lnil lnil-briefcase"></i>
-        </div>
-        <div class="meta">
-          <span>Projects</span>
-          <span>All my projects</span>
-        </div>
-      </a>
+
 
       <a href="#" role="menuitem" class="dropdown-item is-media">
         <div class="icon">

@@ -40,11 +40,11 @@ const locations = {
         distance: 0.3,
         status: 'Active',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Memini me adesse meam.',
+          'Collaborateur GIZ.',
       },
       geometry: {
         type: 'Point',
-        coordinates: [-77.038659, 38.931567],
+        coordinates: [-7.6462196,33.6022924],
       },
     },
 
@@ -121,7 +121,7 @@ onMounted(() => {
     style: darkmode.isDark
       ? 'mapbox://styles/mapbox/dark-v10'
       : 'mapbox://styles/mapbox/light-v10',
-    center: [-77.04, 38.907],
+    center: [-7.646, 33.60],
     zoom: 12,
   })
 

@@ -182,30 +182,30 @@ watch(
           <li>
             <RouterLink to="/fleet" class="single-link">
               <span class="icon">
-                <i class="iconify" data-icon="feather:search"></i>
+                <i class="iconify" data-icon="feather:map"></i>
               </span>
               Fleet
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/sidebar/dashboards/human-ressources" class="single-link">
+            <RouterLink to="/bookings" class="single-link">
               <span class="icon">
-                <i class="iconify" data-icon="feather:message-circle"></i>
+                <i class="iconify" data-icon="feather:bookmark"></i>
               </span>
-              Messages
-              <span class="badge">3</span>
+              Bookings
+              <!--<span class="badge">3</span>-->
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/sidebar/dashboards/personal-3" class="single-link">
+            <RouterLink to="/trips" class="single-link">
               <span class="icon">
                 <i class="iconify" data-icon="feather:book"></i>
               </span>
-              Collections
+              Trips
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/sidebar/layouts/profile-view" class="single-link">
+            <RouterLink to="/users" class="single-link">
               <span class="icon">
                 <i class="iconify" data-icon="feather:users"></i>
               </span>
@@ -221,25 +221,25 @@ watch(
               Reports
               <i aria-hidden="true" class="iconify" data-icon="feather:chevron-right"></i>
             </template>
-            <RouterLink to="/sidebar/dashboards/analytics" class="is-submenu">
+            <RouterLink to="/reports/trips" class="is-submenu">
               <i class="lnil lnil-analytics-alt-1"></i>
-              <span>Financial report</span>
+              <span>Trips report</span>
             </RouterLink>
-            <RouterLink to="/sidebar/dashboards/company" class="is-submenu">
+            <RouterLink to="/reports/users" class="is-submenu">
               <i class="lnil lnil-pie-chart"></i>
-              <span>Stocks report</span>
+              <span>Users report</span>
             </RouterLink>
-            <RouterLink to="/sidebar/layouts/list-view-3" class="is-submenu">
+            <RouterLink to="/reports/transactions" class="is-submenu">
               <i class="lnil lnil-stats-up"></i>
-              <span>Growth report</span>
+              <span>Transactions report</span>
             </RouterLink>
           </VCollapseLinks>
           <li>
-            <RouterLink to="/inbox" class="single-link">
+            <RouterLink to="/activity" class="single-link">
               <span class="icon">
-                <i class="iconify" data-icon="feather:mail"></i>
+                <i class="iconify" data-icon="feather:activity"></i>
               </span>
-              Inbox
+              Activity
             </RouterLink>
           </li>
           <li class="divider"></li>
@@ -252,15 +252,15 @@ watch(
               Settings
               <i aria-hidden="true" class="iconify" data-icon="feather:chevron-right"></i>
             </template>
-            <RouterLink to="/sidebar/layouts" class="is-submenu">
+            <RouterLink to="/settings/general" class="is-submenu">
               <i class="lnil lnil-home"></i>
               <span>General</span>
             </RouterLink>
-            <RouterLink to="/sidebar/dashboards/stocks" class="is-submenu">
+            <RouterLink to="/settings/security" class="is-submenu">
               <i class="lnil lnil-lock-alt"></i>
               <span>Security</span>
             </RouterLink>
-            <RouterLink to="/sidebar/dashboards/sales" class="is-submenu">
+            <RouterLink to="/settings/transactions" class="is-submenu">
               <i class="lnil lnil-coin"></i>
               <span>Transactions</span>
             </RouterLink>
@@ -271,31 +271,23 @@ watch(
               <div class="icon">
                 <i aria-hidden="true" class="iconify" data-icon="feather:zap"></i>
               </div>
-              Starters
+              Support
               <i aria-hidden="true" class="iconify" data-icon="feather:chevron-right" />
             </template>
 
-            <RouterLink to="/starters/sidebar-blank-page-1" class="is-submenu">
+            <RouterLink to="/docs" class="is-submenu">
               <i aria-hidden="true" class="lnil lnil-layout"></i>
-              <span>Regular Sidebar</span>
+              <span>Docs</span>
             </RouterLink>
 
 
             <hr class="navbar-divider" />
 
-            <RouterLink to="/starters/sideblock-blank-page-1" class="is-submenu">
+            <RouterLink to="/contact" class="is-submenu">
               <i aria-hidden="true" class="lnil lnil-layout"></i>
-              <span>Regular Sideblock</span>
-              <VTag
-                class="ml-2"
-                label="v2.2"
-                color="primary"
-                size="tiny"
-                outlined
-                curved
-              />
+              <span>Contact</span>
             </RouterLink>
-            <RouterLink to="/starters/sideblock-blank-page-2" class="is-submenu">
+            <!--<RouterLink to="/starters/sideblock-blank-page-2" class="is-submenu">
               <i aria-hidden="true" class="lnil lnil-layout"></i>
               <span>Curved Sideblock</span>
               <VTag
@@ -330,11 +322,11 @@ watch(
                 outlined
                 curved
               />
-            </RouterLink>
+            </RouterLink>-->
 
             <hr class="navbar-divider" />
 
-            <RouterLink to="/starters/navbar-blank-page-1" class="is-submenu">
+            <!--<RouterLink to="/starters/navbar-blank-page-1" class="is-submenu">
               <i aria-hidden="true" class="lnil lnil-layout-alt-1"></i>
               <span>Regular Navbar</span>
             </RouterLink>
@@ -365,7 +357,7 @@ watch(
             <RouterLink to="/starters/navbar-blank-page-8" class="is-submenu">
               <i aria-hidden="true" class="lnil lnil-layout-alt-1"></i>
               <span>Clean Fade Navbar</span>
-            </RouterLink>
+            </RouterLink>-->
           </VCollapseLinks>
         </template>
 
