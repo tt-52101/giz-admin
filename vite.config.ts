@@ -29,9 +29,9 @@ export default defineConfig({
   // You also need to add this base like `history: createWebHistory('my-subdirectory')`
   // in ./src/router.ts
   // base: '/my-subdirectory/',
-  base: '/',
+  base: '/giz-admin/',
   // Directory to serve as plain static assets.
-  publicDir: 'public',
+  publicDir: './',
   // Adjust console output verbosity.
   logLevel: 'info',
   // development server configuration
